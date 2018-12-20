@@ -1,0 +1,27 @@
+#map {
+    width : 715px;
+    height : 570px;
+    background-color : #EAEAEA;
+}
+
+svg {
+    position : absolute;
+    height : 540px;
+    width : 700px;
+}
+
+.station {
+    position : absolute;
+    width : 25px;
+    height : 25px;
+    border-radius : 50%;
+    background-color : #61D186;
+    text-align : center;
+    line-height : 25px;
+    z-index : 1;
+}
+
+.edge {
+    stroke :#A7A7A7;
+    stroke-width : 1;
+}
